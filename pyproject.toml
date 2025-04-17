@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dependencies = [
+  "builtins",
+  "inspect",
+  "sys",
+  "ast"
+]
+name = "fileable"
+version = "0.0.1"
+authors = [
+  { name="MarijnvTricht", email="marijn-pystuff@proton.me" },
+]
+description = "Yet another incomplete way to save and load python classes"
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/MarijnvanTricht/fileable"
+Issues = "https://github.com/MarijnvanTricht/fileable"
